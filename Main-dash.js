@@ -31,10 +31,24 @@ function cerrarSesion(){
 
 }
 
-
 function guardarPPM(){
 
-    const ppm = {
+    let registros =
+        JSON.parse(localStorage.getItem("ppm")) || [];
+
+    let ultimoId =
+        Number(localStorage.getItem("ultimoId")) || 0;
+
+    ultimoId++;
+
+    localStorage.setItem(
+        "ultimoId",
+        ultimoId
+    );
+
+    let ppm = {
+
+        id: ultimoId,
 
         empleado: document.getElementById("empleado").value,
         nombre: document.getElementById("nombre").value,
@@ -43,72 +57,36 @@ function guardarPPM(){
 
         procesoAfectado: document.getElementById("procesoAfectado").value,
         deliveryTO: document.getElementById("deliveryTO").value,
-
         codigo: document.getElementById("codigo").value,
+
+        supervisorOriginador: document.getElementById("supervisorOriginador").value,
+
+        empleadoReporta: document.getElementById("empleadoReporta").value,
+        turnoReporta: document.getElementById("turnoReporta").value,
+
         titulo: document.getElementById("titulo").value,
+        descripcion: document.getElementById("descripcion").value,
 
-        supervisorOriginador:
-            document.getElementById("supervisorOriginador").value,
-
-        empleadoReporta:
-            document.getElementById("empleadoReporta").value,
-
-        turnoReporta:
-            document.getElementById("turnoReporta").value,
-
-        descripcion:
-            document.getElementById("descripcion").value
-
+        fechaRegistro: new Date().toLocaleString()
     };
 
-    fetch("guardarPPM.php", {
+    registros.push(ppm);
 
-        method: "POST",
+    localStorage.setItem(
+        "ppm",
+        JSON.stringify(registros)
+    );
 
-        headers: {
-            "Content-Type": "application/json"
-        },
+    alert("PPM guardado correctamente.");
 
-        body: JSON.stringify(ppm)
+    limpiarFormulario();
 
-    })
-
-    .then(response => response.json())
-
-    .then(data => {
-
-        if(data.success){
-
-            alert(
-                "PPM guardado correctamente. ID: " +
-                data.id
-            );
-
-            limpiarFormulario();
-
-            cargarPPM();
-
-        }else{
-
-            alert(
-                "Error al guardar el PPM"
-            );
-
-        }
-
-    })
-
-    .catch(error => {
-
-        console.error(error);
-
-        alert(
-            "Error de conexión con el servidor"
-        );
-
-    });
+    if(typeof cargarPPM === "function"){
+        cargarPPM();
+    }
 
 }
+
 function cargarPPM(){
 
     let registros =
