@@ -1,0 +1,115 @@
+Proceso	Defecto	Codigo
+Verificacion Parcel	Informacion ausente dentro SAP (vendor,Tracking, Bol, Key, # de cuenta, Tipo de Cobro, direccion 3rd Party)	VP-00001
+Verificacion Parcel	Informacion Incorrecta dentro SAP (vendor,Tracking, Bol, Key, # de cuenta, Tipo de Cobro, direccion 3rd Party)	VP-00002
+Verificacion Parcel	Comercial sin firma / sello 	VP-00003
+Verificacion Parcel	Delivery extraviado	VP-00004
+Verificacion Parcel	Documentos Fisicos ausente (comercial, delivery, papeleta, BoL)	VP-00005
+Verificacion Parcel	Documentos Fisicos Icorrectos (comercial, delivery, papeleta, BoL)	VP-00006
+Verificacion Parcel	Delivery con ruta incorrecta	VP-00007
+Verificacion Parcel	Material en ruta 98 incompleto	VP-00008
+Verificacion Parcel	Check list sin llenar	VP-00009
+Verificacion Parcel	Delivery no enrutado	VP-00010
+Verificacion Parcel	Consolidacion incorrecta de Deliveries	VP-00011
+Verificacion Parcel	Proceso incorrecto en OPF ( No procesado, diferecte Ruta)	VP-00012
+Verificacion Parcel	Proceso Incorrecto del Material en SAP (Peso, dimensiones, # de BoL)	VP-00013
+Verificacion Parcel	Delivery no procesado en SAP	VP-00014
+Verificacion Parcel	Delivery no agregado al BoL	VP-00015
+Verificacion Parcel	Delivery procesado fuera de rango de fechas permitido	VP-00016
+Verificacion Parcel	Proceso Incorrecto para Solicitud de Instrucciones 	VP-00017
+Verificacion Parcel	No siguio proceso de acuerdo a AV	VP-00018
+Verificacion Parcel	Carrier / Servicio Incorrecto	VP-00019
+Verificacion Parcel	Informacion incorrecta en la etiqueta de carrier	VP-00020
+Verificacion Parcel	Ausencia de Comercial Invoice	VP-00021
+Verificacion Parcel	Comercial Invoice Duplicado	VP-00022
+Verificacion Parcel	Infromacion incorrecta / faltante (CI, BOL, Etiqueta)	VP-00023
+Verificacion LTL 	Informacion ausente dentro SAP (vendor,Tracking, Bol, Key, # de cuenta, Tipo de Cobro, direccion 3rd Party)	VL-00001
+Verificacion LTL 	Informacion Incorrecta dentro SAP (vendor,Tracking, Bol, Key, # de cuenta, Tipo de Cobro, direccion 3rd Party)	VL-00002
+Verificacion LTL 	Comercial sin firma / sello 	VL-00003
+Verificacion LTL 	Delivery extraviado	VL-00004
+Verificacion LTL 	Documentos Fisicos ausente (comercial, delivery, papeleta, BoL)	VL-00005
+Verificacion LTL 	Documentos Fisicos Icorrectos (comercial, delivery, papeleta, BoL)	VL-00006
+Verificacion LTL 	Delivery con ruta incorrecta	VL-00007
+Verificacion LTL 	Material en ruta 98 incompleto	VL-00008
+Verificacion LTL 	Check list sin llenar	VL-00009
+Verificacion LTL 	Delivery no enrutado	VL-00010
+Verificacion LTL 	Consolidacion incorrecta de Deliveries	VL-00011
+Verificacion LTL 	Proceso incorrecto en OPF ( No procesado, diferecte Ruta)	VL-00012
+Verificacion LTL 	Proceso Incorrecto del Material en SAP (Peso, dimensiones, # de BoL)	VL-00013
+Verificacion LTL 	Delivery no procesado en SAP	VL-00014
+Verificacion LTL 	Delivery no agregado al BoL	VL-00015
+Verificacion LTL 	Delivery procesado fuera de rango de fechas permitido	VL-00016
+Verificacion LTL 	Proceso Incorrecto para Solicitud de Instrucciones 	VL-00017
+Verificacion LTL 	No siguio proceso de acuerdo a AV	VL-00018
+Verificacion LTL 	Carrier / Servicio Incorrecto	VL-00019
+Verificacion LTL 	Informacion incorrecta en la etiqueta de carrier	VL-00020
+Verificacion LTL 	Ausencia de Comercial Invoice	VL-00021
+Verificacion LTL 	Comercial Invoice Duplicado	VL-00022
+Verificacion LTL 	Infromacion incorrecta / faltante (CI, BOL, Etiqueta)	VL-00023
+Verificacion FTL	Informacion ausente dentro SAP (vendor,Tracking, Bol, Key, # de cuenta, Tipo de Cobro, direccion 3rd Party)	VF-00001
+Verificacion FTL	Informacion Incorrecta dentro SAP (vendor,Tracking, Bol, Key, # de cuenta, Tipo de Cobro, direccion 3rd Party)	VF-00002
+Verificacion FTL	Comercial sin firma / sello 	VF-00003
+Verificacion FTL	Delivery extraviado	VF-00004
+Verificacion FTL	Documentos Fisicos ausente (comercial, delivery, papeleta, BoL)	VF-00005
+Verificacion FTL	Documentos Fisicos Icorrectos (comercial, delivery, papeleta, BoL)	VF-00006
+Verificacion FTL	Delivery con ruta incorrecta	VF-00007
+Verificacion FTL	Material en ruta 98 incompleto	VF-00008
+Verificacion FTL	Check list sin llenar	VF-00009
+Verificacion FTL	Delivery no enrutado	VF-00010
+Verificacion FTL	Consolidacion incorrecta de Deliveries	VF-00011
+Verificacion FTL	Proceso incorrecto en OPF ( No procesado, diferecte Ruta)	VF-00012
+Verificacion FTL	Proceso Incorrecto del Material en SAP (Peso, dimensiones, # de BoL)	VF-00013
+Verificacion FTL	Delivery no procesado en SAP	VF-00014
+Verificacion FTL	Delivery no agregado al BoL	VF-00015
+Verificacion FTL	Delivery procesado fuera de rango de fechas permitido	VF-00016
+Verificacion FTL	Proceso Incorrecto para Solicitud de Instrucciones 	VF-00017
+Verificacion FTL	No siguio proceso de acuerdo a AV	VF-00018
+Verificacion FTL	Carrier / Servicio Incorrecto	VF-00019
+Verificacion FTL	Informacion incorrecta en la etiqueta de carrier	VF-00020
+Verificacion FTL	Ausencia de Comercial Invoice	VF-00021
+Verificacion FTL	Comercial Invoice Duplicado	VF-00022
+Verificacion FTL	Infromacion incorrecta / faltante (CI, BOL, Etiqueta)	VF-00023
+Pickeo	Informacion incorrecta en etiquetas (Master / Delivery)	P-00001
+Pickeo	No agrego numero de empleado y turno en el Delivery	P-00002
+Pickeo	Delivery no confirmado 	P-00003
+Pickeo	Falta etiqueta Master	P-00004
+Pickeo	Empaque mal declarado (skid/box)	P-00005
+Pickeo	Material Incorrecto	P-00006
+Pickeo	Master Incorrecta / Invertidas	P-00007
+Pickeo	Delivery/TO compartido 	P-00008
+Pickeo	Material sin caja Master (Cajas Sueltas)	P-00009
+Pickeo	Delivery sin declaracion	P-00010
+Pickeo	Material no especifica a que tarima / Caja Master pertenece	P-00011
+Pickeo	Material sin burbuja	P-00012
+Pickeo	Declaracion incompleta / Incorrecta (Peso, dimension, Total de box)	P-00013
+Pickeo	Material con Cantidad Incorrecta (Faltante, Extra)	P-00014
+Pickeo	Tarima Incorrecta utilizada	P-00015
+Pickeo	Material No reempable procesado	P-00016
+Pickeo	Material empacado en caja incorrecta (contenedor gris, sin geilor)	P-00017
+Pickeo	Material sin proceso de RMS	P-00018
+Pickeo	Tarimas/Cajas no entregados al area correspondiente	P-00019
+Pickeo	Material RM sin etiqueta Manual (RY06)	P-00020
+Pickeo	No siguio proceso de Telecom Argentina	P-00021
+Pickeo	Delivery cancelado no retornado correctamente	P-00022
+Pickeo	No siguio proceso de acuerdo a AV	P-00023
+Pickeo	Delivery cancelado no retornado correctamente	P-00024
+Pickeo	Dimension Incorrecta (Altura, Ancho, Largo)	P-00025
+Coordinacion 	Delivery mal consolidados 	C-00002
+Recibos	Almacenamiento Incorrecto	R-00001
+Recibos	Master equivocada	R-00002
+Recibos	Material sin etiqueta de produccion	R-00003
+Recibos	Material incorrecto (etiquetas incorrectas)	R-00004
+Recibos	Material sin sello	R-00005
+Trafico	Error en capturacion de rutas (informacion extra y/o faltante)	T-00001
+Trafico	Proceso de carga incorrecto (Tarimas/ cajas no cargados, caja incorrecta)	T-00002
+Trafico	Proceso incorrecto en OPF ( No procesado, diferente Ruta)	T-00003
+Trafico	Error en numero de caja	T-00004
+Trafico	Check list sin llenar	T-00005
+Trafico	No siguio proceso de acuerdo a AV	T-00006
+Oficinas	Falta de servicio	O-00001
+Oficinas	Sellado Incorrecto (Tipo de Cobro, Carrier, Tipo de envio, Numero de Cuenta)	O-00002
+Oficinas	Delivery mal consolidados 	O-00003
+BQS	Falta de etiquetas (P2 y 3S)	B-00001
+BQS	Delivery mal empacado 	B-00002
+BQS	Material sin  BQS	B-00003
+BQS	BQS incompleto	B-00004
+Coordinacion 	TO duplicada en un mismo delivery	C-00001
